@@ -1,5 +1,5 @@
 import linux
-import boto3
+import windows dev
 
 def lambda_handler(event, context):
   client = boto3.client('ec2')
